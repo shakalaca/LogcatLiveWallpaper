@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LogcatLiveWallpaper</string>
+    <string name="settings_label">Settings</string>
+
+	<string name="settings_theme_title_text">Theme</string>
+	<string name="settings_theme_summary_text">DDMS or Old</string>
+	<string-array name="settings_theme_name_entries">
+		<item>DDMS</item>
+		<item>Old</item>
+	</string-array>
+	<string-array name="settings_theme_name_entry_values">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+
+	<string name="settings_font_title_text">Font</string>
+	<string name="settings_font_summary_text">The font used to display log</string>
+	<string-array name="settings_font_entries">
+		<item>Arcade</item>
+		<item>Apple ][</item>
+		<item>Droid</item>
+		<item>Transformers</item>
+	</string-array>
+	<string-array name="settings_font_entry_values">
+		<item>arcade.ttf</item>
+		<item>PRNumber3.ttf</item>
+		<item>DroidSans.ttf</item>
+		<item>Transformers.ttf</item>
+	</string-array>
+
+	<string name="settings_font_size_title_text">Font size</string>
+	<string name="settings_font_size_summary_text">Small, medium or large</string>
+	<string-array name="settings_font_size_entries">
+		<item>Small</item>
+		<item>Medium</item>
+		<item>Large</item>
+	</string-array>
+	<string-array name="settings_font_size_entry_values">
+		<item>14</item>
+		<item>16</item>
+		<item>18</item>
+	</string-array>
+
+	<string name="settings_wrap_text_title_text">Wrap text</string>
+	<string name="settings_wrap_text_summary_text">Wraps text so it all fits on the screen without having to scroll left and right</string>
+
+	<string name="settings_full_screen_title_text">Full screen</string>
+	<string name="settings_full_screen_summary_text">Don\'t reserve space for status bar and launcher</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.corner23.android.logcatlivewallpaper"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-feature android:name="android.software.live_wallpaper" />
+    
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <service 
+            android:label="@string/app_name"
+            android:name=".LogcatLiveWallpaper"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/logcat" />
+        </service>
+        <activity
+            android:label="@string/settings_label"
+            android:name=".Settings"
+            android:exported="true">
+        </activity>
+    </application>
+</manifest>
+ 

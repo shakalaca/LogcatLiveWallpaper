@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/settings_label"
+        android:key="logcatlivewallpaper_settings">
+
+	<ListPreference
+		android:key="pref_theme"
+		android:layout="?android:attr/preferenceLayoutChild" 
+		android:title="@string/settings_theme_title_text"
+		android:summary="@string/settings_theme_summary_text"
+		android:entries="@array/settings_theme_name_entries"
+		android:entryValues="@array/settings_theme_name_entry_values"
+		android:dialogTitle="@string/settings_theme_title_text"
+		android:defaultValue="0" />
+
+	<ListPreference
+		android:key="pref_font"
+		android:layout="?android:attr/preferenceLayoutChild" 
+		android:title="@string/settings_font_title_text"
+		android:summary="@string/settings_font_summary_text"
+		android:entries="@array/settings_font_entries"
+		android:entryValues="@array/settings_font_entry_values"
+		android:dialogTitle="@string/settings_font_title_text"
+		android:defaultValue="arcade.ttf" />
+
+	<ListPreference
+		android:key="pref_font_size"
+		android:layout="?android:attr/preferenceLayoutChild" 
+		android:title="@string/settings_font_size_title_text"
+		android:summary="@string/settings_font_size_summary_text"
+		android:entries="@array/settings_font_size_entries"
+		android:entryValues="@array/settings_font_size_entry_values"
+		android:dialogTitle="@string/settings_font_size_title_text"
+		android:defaultValue="16" />
+
+	<CheckBoxPreference 
+		android:enabled="false"
+		android:key="pref_wrap_text"
+		android:title="@string/settings_wrap_text_title_text"
+		android:summary="@string/settings_wrap_text_summary_text"
+		android:defaultValue="false" />
+
+	<CheckBoxPreference 
+		android:key="pref_full_screen"
+		android:title="@string/settings_full_screen_title_text"
+		android:summary="@string/settings_full_screen_summary_text"
+		android:defaultValue="false" />
+
+</PreferenceScreen>
