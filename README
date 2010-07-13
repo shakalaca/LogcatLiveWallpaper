@@ -1,0 +1,12 @@
+It's a geeky Android live wallpaper that displays output of logcat.
+
+Just for fun, any questions feel free contact me :-)
+
+E-mail: shakalaca AT gmail dot com
+
+2010-07-13 v1.0:
+Initial version
+* Configure theme (DDMS / old monitor)
+* Configure font and size
+* Full screen mode
+
